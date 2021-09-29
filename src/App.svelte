@@ -2,22 +2,31 @@
 	export let name;
 </script>
 
-<!-- svelte-ignore a11y-missing-attribute -->
 <main>
-	<nav class="navbar is-dark" role="navigation" aria-label="main navigation">
-		<div class="navbar-menu">
-			<div class="navbar-start">
-				<a class="navbar-item" href="https://www.bulma.io">Click !</a>
-			</div>
-		</div>
-	</nav>
+	<header>Bonjour ?</header>
+	<h1>Hello {name}!</h1>
+	<p>Le site ne devrait pas ressembler a ca très longtemps !</p>
 </main>
 
 <style>
 	main {
-		font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+		font-family: "JetBrains Mono", serif;
+		text-align: center;
+		padding: 1em;
+		max-width: 240px;
+		margin: 0 auto;
 	}
-	nav {
-		font-weight: 600;
+
+	h1 {
+		color: #1d89f9;
+		text-transform: uppercase;
+		font-size: 4em;
+		font-weight: 100;
+	}
+
+	@media (min-width: 640px) {
+		main {
+			max-width: none;
+		}
 	}
 </style>
