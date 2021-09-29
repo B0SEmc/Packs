@@ -3,13 +3,14 @@
 </script>
 
 <main>
+	<header>Bonjour ?</header>
 	<h1>Hello {name}!</h1>
 	<p>Le site ne devrait pas ressembler a ca très longtemps !</p>
 </main>
 
 <style>
 	main {
-		font-family: "JetBrains Mono",serif;
+		font-family: "JetBrains Mono", serif;
 		text-align: center;
 		padding: 1em;
 		max-width: 240px;
