@@ -7,9 +7,8 @@ const config = {
 		extend: {},
 	},
 	plugins: [],
-	darkMode : 'media',
 	fontFamily: {
-		sans: ['Jetbrains Mono', 'sans-serif'],
+		sans: ['Impact'],
 	  },
 };
 
