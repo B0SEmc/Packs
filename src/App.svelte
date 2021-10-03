@@ -7,7 +7,7 @@
     <nav class="flex mx-auto bg-black h-auto bg-opacity-20 shadow-xl">
       <div>
         <a href="https://packs.netlify.com">
-          <img class="pl-16 py-1.5" src="src\assets\Icon.png" alt="Icon" />
+          <img class="pl-16 py-1.5" src="images/Icon.png" alt="Icon" />
         </a>
       </div>
       <div class="self-center">
@@ -20,15 +20,15 @@
     <h2 class="py-4 px-36 font-semibold text-4xl">Best Packs</h2>
   </div>
   <div class="py-36 pl-32 pr-32 place-items-center grid grid-cols-4 grid-flow-row-dense gap-y-20 gap-x-20">
-    <div class="flex shadow-xl"><img class="rounded-3xl" src="src\assets\Vaes+15k+pack.png" alt="" /></div>
-    <div class="flex shadow-xl"><img class="rounded-3xl" src="src\assets\Vaes+15k+pack.png" alt="" /></div>
-    <div class="flex shadow-xl"><img class="rounded-3xl" src="src\assets\Vaes+15k+pack.png" alt="" /></div>
-    <div class="flex shadow-xl"><img class="rounded-3xl" src="src\assets\Vaes+15k+pack.png" alt="" /></div>
-    <div class="flex shadow-xl"><img class="rounded-3xl" src="src\assets\Vaes+15k+pack.png" alt="" /></div>
-    <div class="flex shadow-xl"><img class="rounded-3xl" src="src\assets\Vaes+15k+pack.png" alt="" /></div>
-    <div class="flex shadow-xl"><img class="rounded-3xl" src="src\assets\Vaes+15k+pack.png" alt="" /></div>
-    <div class="flex shadow-xl"><img class="rounded-3xl" src="src\assets\Vaes+15k+pack.png" alt="" /></div>
-    <div class="flex shadow-xl"><img class="rounded-3xl" src="src\assets\Vaes+15k+pack.png" alt="" /></div>
+    <div class="flex shadow-xl"><img class="rounded-3xl" src="images/pack.png" alt="" /></div>
+    <div class="flex shadow-xl"><img class="rounded-3xl" src="images/pack.png" alt="" /></div>
+    <div class="flex shadow-xl"><img class="rounded-3xl" src="images/pack.png" alt="" /></div>
+    <div class="flex shadow-xl"><img class="rounded-3xl" src="images/pack.png" alt="" /></div>
+    <div class="flex shadow-xl"><img class="rounded-3xl" src="images/pack.png" alt="" /></div>
+    <div class="flex shadow-xl"><img class="rounded-3xl" src="images/pack.png" alt="" /></div>
+    <div class="flex shadow-xl"><img class="rounded-3xl" src="images/pack.png" alt="" /></div>
+    <div class="flex shadow-xl"><img class="rounded-3xl" src="images/pack.png" alt="" /></div>
+    <div class="flex shadow-xl"><img class="rounded-3xl" src="images/pack.png" alt="" /></div>
   </div>
 </main>
 
