@@ -2,6 +2,8 @@
   function getRandomNum(max) {
     return Math.floor(Math.random() * max + 1);
   }
+  let imgClass = "rounded-3xl shadow-2xl transform transition duration-300 ease-in-out group-hover:scale-125 filter group-hover:blur group-hover:opacity-50";
+  let packNameClass = "select-none opacity-0 text-center transition duration-300 ease-in-out -translate-y-28 font-bold text-2xl group-hover:visible group-hover:opacity-100";
 </script>
 
 <!-- svelte-ignore a11y-invalid-attribute -->
@@ -25,56 +27,56 @@
   <div class="py-36 pl-32 pr-32 place-items-center grid grid-cols-4 grid-flow-row-dense gap-y-20 gap-x-20 md:gap-x-10 md:gap-y-10 sm:gap-x-1 sm:gap-y-1">
     <div class="group flex">
       <a href=""
-        ><img class="rounded-3xl shadow-2xl transform transition duration-300 ease-in-out group-hover:scale-125 filter group-hover:blur group-hover:opacity-50" src="images/pack{getRandomNum(5)}.png" alt="" />
-        <p class="select-none opacity-0 text-center transition duration-300 ease-in-out -translate-y-28 font-bold text-2xl group-hover:visible group-hover:opacity-100">Sample Texture Pack</p></a
+        ><img class={imgClass} src="images/pack{getRandomNum(5)}.png" alt="" />
+        <p class={packNameClass}>Sample Texture Pack</p></a
       >
     </div>
     <div class="group flex">
       <a href=""
-        ><img class="rounded-3xl shadow-2xl transform transition duration-300 ease-in-out group-hover:scale-125 filter group-hover:blur group-hover:opacity-50" src="images/pack{getRandomNum(5)}.png" alt="" />
-        <p class="select-none opacity-0 text-center transition duration-300 ease-in-out -translate-y-28 font-bold text-2xl group-hover:visible group-hover:opacity-100">Sample Texture Pack</p></a
+        ><img class={imgClass} src="images/pack{getRandomNum(5)}.png" alt="" />
+        <p class={packNameClass}>Sample Texture Pack</p></a
       >
     </div>
     <div class="group flex">
       <a href=""
-        ><img class="rounded-3xl shadow-2xl transform transition duration-300 ease-in-out group-hover:scale-125 filter group-hover:blur group-hover:opacity-50" src="images/pack{getRandomNum(5)}.png" alt="" />
-        <p class="select-none opacity-0 text-center transition duration-300 ease-in-out -translate-y-28 font-bold text-2xl group-hover:visible group-hover:opacity-100">Sample Texture Pack</p></a
+        ><img class={imgClass} src="images/pack{getRandomNum(5)}.png" alt="" />
+        <p class={packNameClass}>Sample Texture Pack</p></a
       >
     </div>
     <div class="group flex">
       <a href=""
-        ><img class="rounded-3xl shadow-2xl transform transition duration-300 ease-in-out group-hover:scale-125 filter group-hover:blur group-hover:opacity-50" src="images/pack{getRandomNum(5)}.png" alt="" />
-        <p class="select-none opacity-0 text-center transition duration-300 ease-in-out -translate-y-28 font-bold text-2xl group-hover:visible group-hover:opacity-100">Sample Texture Pack</p></a
+        ><img class={imgClass} src="images/pack{getRandomNum(5)}.png" alt="" />
+        <p class={packNameClass}>Sample Texture Pack</p></a
       >
     </div>
     <div class="group flex">
       <a href=""
-        ><img class="rounded-3xl shadow-2xl transform transition duration-300 ease-in-out group-hover:scale-125 filter group-hover:blur group-hover:opacity-50" src="images/pack{getRandomNum(5)}.png" alt="" />
-        <p class="select-none opacity-0 text-center transition duration-300 ease-in-out -translate-y-28 font-bold text-2xl group-hover:visible group-hover:opacity-100">Sample Texture Pack</p></a
+        ><img class={imgClass} src="images/pack{getRandomNum(5)}.png" alt="" />
+        <p class={packNameClass}>Sample Texture Pack</p></a
       >
     </div>
     <div class="group flex">
       <a href=""
-        ><img class="rounded-3xl shadow-2xl transform transition duration-300 ease-in-out group-hover:scale-125 filter group-hover:blur group-hover:opacity-50" src="images/pack{getRandomNum(5)}.png" alt="" />
-        <p class="select-none opacity-0 text-center transition duration-300 ease-in-out -translate-y-28 font-bold text-2xl group-hover:visible group-hover:opacity-100">Sample Texture Pack</p></a
+        ><img class={imgClass} src="images/pack{getRandomNum(5)}.png" alt="" />
+        <p class={packNameClass}>Sample Texture Pack</p></a
       >
     </div>
     <div class="group flex">
       <a href=""
-        ><img class="rounded-3xl shadow-2xl transform transition duration-300 ease-in-out group-hover:scale-125 filter group-hover:blur group-hover:opacity-50" src="images/pack{getRandomNum(5)}.png" alt="" />
-        <p class="select-none opacity-0 text-center transition duration-300 ease-in-out -translate-y-28 font-bold text-2xl group-hover:visible group-hover:opacity-100">Sample Texture Pack</p></a
+        ><img class={imgClass} src="images/pack{getRandomNum(5)}.png" alt="" />
+        <p class={packNameClass}>Sample Texture Pack</p></a
       >
     </div>
     <div class="group flex">
       <a href=""
-        ><img class="rounded-3xl shadow-2xl transform transition duration-300 ease-in-out group-hover:scale-125 filter group-hover:blur group-hover:opacity-50" src="images/pack{getRandomNum(5)}.png" alt="" />
-        <p class="select-none opacity-0 text-center transition duration-300 ease-in-out -translate-y-28 font-bold text-2xl group-hover:visible group-hover:opacity-100">Sample Texture Pack</p></a
+        ><img class={imgClass} src="images/pack{getRandomNum(5)}.png" alt="" />
+        <p class={packNameClass}>Sample Texture Pack</p></a
       >
     </div>
     <div class="group flex">
       <a href=""
-        ><img class="rounded-3xl shadow-2xl transform transition duration-300 ease-in-out group-hover:scale-125 filter group-hover:blur group-hover:opacity-50" src="images/pack{getRandomNum(5)}.png" alt="" />
-        <p class="select-none opacity-0 text-center transition duration-300 ease-in-out -translate-y-28 font-bold text-2xl group-hover:visible group-hover:opacity-100">Sample Texture Pack</p></a
+        ><img class={imgClass} src="images/pack{getRandomNum(5)}.png" alt="" />
+        <p class={packNameClass}>Sample Texture Pack</p></a
       >
     </div>
   </div>
