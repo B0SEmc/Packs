@@ -1,5 +1,5 @@
 <script lang="ts">
-  function getRandomNum(max) {
+  function getRandomNum(max: number) {
     return Math.floor(Math.random() * max + 1);
   }
   let imgClass = "rounded-3xl shadow-2xl transform transition duration-300 ease-in-out group-hover:scale-125 filter group-hover:blur group-hover:opacity-50";
