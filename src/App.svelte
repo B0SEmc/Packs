@@ -15,13 +15,14 @@
           <img class="pl-16 py-1.5 transform transition duration-150 ease-in-out hover:scale-110" src="images/Icon.png" alt="Icon" />
         </a>
       </div>
+      animate
       <div class="self-center">
         <a type="button" class="text-left text-xl font-bold rounded-xl pl-4 transform transition duration-150 ease-in-out hover:scale-110" href="https://packs.netlify.com">Packs</a>
       </div>
     </nav>
   </div>
   <div>
-    <h1 class="py-16 px-36 font-bold text-7xl transition duration-500 ease-in-out text-blue-600 transform hover:animate-pulse">Hello World !</h1>
+    <h1 class="py-16 px-36 font-bold text-7xl transition duration-500 ease-in-out text-blue-600 transform hover:-pulse">Hello World !</h1>
     <h2 class="py-4 px-36 font-semibold text-4xl">Best Packs</h2>
   </div>
   <div class="py-36 pl-32 pr-32 place-items-center grid grid-cols-4 grid-flow-row-dense lg:gap-x-20 lg:gap-y-20 md:gap-x-10 md:gap-y-10 sm:gap-x-1 sm:gap-y-1">
@@ -80,6 +81,13 @@
       >
     </div>
   </div>
+  <footer class=" mx-auto bg-gray-900 h-28 shadow-xl">
+    <div>
+      <li class="grid grid-cols-1 gap-y-10">
+        <a href="https://github.com/colonel260/Packs">Github</a>
+      </li>
+    </div>
+  </footer>
 </main>
 
 <style>
