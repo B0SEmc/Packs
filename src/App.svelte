@@ -80,6 +80,18 @@
       >
     </div>
   </div>
+  <footer class="bg-gray-900 h-auto shadow-xl">
+    <div>
+      <div class="grid grid-cols-2 px-96 pt-2">
+        <a class="justify-self-center py-4 text-lg pl-96" href="https://github.com/colonel260/Packs">Github</a>
+        <a class="justify-self-center py-4 text-lg pr-96" href="/about">About</a>
+      </div>
+      <div class="grid grid-cols-1 pt-2">
+        <p class="justify-self-center text-xs font-light">We do not claim to own any pack.</p>
+        <p class="justify-self-center text-xs font-light">© 2021 Kai</p>
+      </div>
+    </div>
+  </footer>
 </main>
 
 <style>
