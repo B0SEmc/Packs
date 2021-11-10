@@ -20,6 +20,18 @@
 		</nav>
 	  </div>
 	<slot />
+	<footer class="bg-gray-900 h-">
+		<div>
+		  <div class="grid grid-cols-2 px-96 pt-2">
+			<a class="justify-self-center py-4 text-lg ml-96" href="https://github.com/colonel260/Packs"><i class="fab fa-github scale-90"></i> Github</a>
+			<a class="justify-self-center py-4 text-lg mr-96" href="/about"><i class="fas fa-info-circle scale-90"></i> About</a>
+		  </div>
+		  <div class="grid grid-cols-1 pt-2">
+			<p class="justify-self-center text-xs font-light">We do not claim to own any pack.</p>
+			<p class="justify-self-center text-xs font-light"><i class="fas fa-copyright"></i> 2021 Kai</p>
+		  </div>
+		</div>
+	  </footer>
 </main>
 
 <style>
