@@ -4,7 +4,7 @@ const c = [
 	() => import("..\\..\\..\\src\\routes\\index.svelte"),
 	() => import("..\\..\\..\\src\\routes\\bedwars.svelte"),
 	() => import("..\\..\\..\\src\\routes\\about.svelte"),
-	() => import("..\\..\\..\\src\\routes\\todos\\index.svelte"),
+	() => import("..\\..\\..\\src\\routes\\kai.svelte"),
 	() => import("..\\..\\..\\src\\routes\\pvp.svelte")
 ];
 
@@ -20,12 +20,8 @@ export const routes = [
 	// src/routes/about.svelte
 	[/^\/about\/?$/, [c[0], c[4]], [c[1]]],
 
-	,
-
-	// src/routes/todos/index.svelte
-	[/^\/todos\/?$/, [c[0], c[5]], [c[1]]],
-
-	,
+	// src/routes/kai.svelte
+	[/^\/kai\/?$/, [c[0], c[5]], [c[1]]],
 
 	// src/routes/pvp.svelte
 	[/^\/pvp\/?$/, [c[0], c[6]], [c[1]]]
