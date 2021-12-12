@@ -4,7 +4,7 @@
 <!-- svelte-ignore a11y-invalid-attribute -->
 <main>
 	<div>
-	  <h1 class="py-16 px-36 font-bold text-8xl transition duration-500 ease-in-out text-blue-600 text-center transform">Kai Packs</h1>
+	  <h1 class="my-16 mx-36 font-bold drop-shadow-xl text-8xl text-blue-600 text-center transform">Kai Packs</h1>
 	  <h2 class="py-4 px-36 font-semibold text-3xl text-center">Choisissez votre catégorie</h2>
 	</div>
 	<div class="py-24 px-36 place-items-center grid grid-cols-2 grid-rows-1 lg:gap-x-20 lg:gap-y-20 md:gap-x-10 md:gap-y-10 sm:gap-x-1 sm:gap-y-1">
