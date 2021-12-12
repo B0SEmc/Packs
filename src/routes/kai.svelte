@@ -1,4 +1,4 @@
-<section class="max-w-xl p-6 mb-40 mx-auto bg-gray-900 rounded-2xl shadow-lg dark:bg-gray-800 mt-20">
+<section class="max-w-xl p-6 mb-40 mx-auto bg-gray-900 rounded-2xl shadow-lg mt-20">
     <h1 class="font-bold text-2xl mt-2 ml-4">Rejoindre la Kai</h1>
     <form action="https://getform.io/f/ccff89c7-19e5-48d3-9d30-7e4c6c9c4059" class="mt-10 mb-20" method="post" name="candid">
         <label class="text-white pl-2 mb-2" for="name">Pseudo Discord (avec #) et InGame</label>
